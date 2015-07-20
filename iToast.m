@@ -83,6 +83,7 @@ static iToastSettings *sharedSettings = nil;
 	label.textColor = [UIColor whiteColor];
 	label.font = font;
 	label.text = text;
+    label.adjustsFontSizeToFitWidth = YES;
 	label.numberOfLines = 0;
 	if (theSettings.useShadow) {
 		label.shadowColor = [UIColor darkGrayColor];
